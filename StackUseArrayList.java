@@ -2,8 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * This is an ArrayList Implementation of stack, Where size is not a problem we
- * can extend the stack as much as we want.
+ * ArrayList Implementation of stack
  *
  * @author
  *
@@ -30,7 +29,7 @@ public class StackUsingArrayList {
     }
 
     /**
-     * Pops last element of list which is indeed the top for Stack
+     * Pops last element of list which is the top for Stack
      *
      * @return Element popped
      */
@@ -41,7 +40,7 @@ public class StackUsingArrayList {
               stackList.remove(stackList.size() - 1); // removes the poped element             
               return popValue;
          } else {
-              System.out.print("The stack is already empty  ");
+              System.out.print("The stack is empty  ");
               return -1;
          }
     }
